@@ -8,7 +8,14 @@
 
 This is an example repo, built to test the following:
 
-- A very basic TypeScript library which is built using Github Actions
-- Simple Jest setup, with tests running in CI on Github Actions
-- Automated deployment to NPM using semantic-release
+- A very basic TypeScript library, including generating type definitions on build
+- Simple [Jest](https://jestjs.io/) setup, with tests running in CI on [Github Actions](https://github.com/features/actions)
+- Automated deployment to NPM using [semantic-release](https://github.com/semantic-release/semantic-release)
+- Enforce that git commits follow the [conventional-commits](https://www.conventionalcommits.org/en/v1.0.0/) standard in a git hook, using [commitlint](https://commitlint.js.org/#/guides-local-setup) and [husky](https://github.com/typicode/husky)
 
+## Recommended Learning Resources
+
+- [YouTube: Using semantic-release with GitHub Actions by Zeke Sikelianos](https://www.youtube.com/watch?v=rCXq86FOlzQ)
+- [YouTube: GitHub Actions demo by Zeke Sikelianos ](https://www.youtube.com/watch?v=TwkAD_yljVw)
+- [Commitlint setup instructions](https://commitlint.js.org/#/guides-local-setup)
+- [Medium: How to automate your releases, versioning & release notes like a boss by Khaled Osman](https://itnext.io/automate-your-releases-versioning-and-release-notes-with-semantic-release-d5575b73d986)
