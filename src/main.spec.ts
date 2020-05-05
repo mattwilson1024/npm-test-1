@@ -1,4 +1,4 @@
-import { sum, subtract } from './main';
+import { sum, subtract, multiply } from './main';
 
 describe('example functions', () => {
   it('should sum two numbers', () => {
@@ -8,4 +8,8 @@ describe('example functions', () => {
   it('should subtract two numbers', () => {
     expect(subtract(10, 1)).toBe(9);
   });
+
+  it('should multiply two numbers', () => {
+    expect(multiply(2, 3)).toBe(6);
+  })
 });
