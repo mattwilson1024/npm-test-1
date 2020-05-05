@@ -1,0 +1,26 @@
+{
+  "name": "@mattwilson1024/npm-test-1",
+  "version": "0.0.0-development",
+  "description": "A simple NPM package",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "repository": "https://github.com/mattwilson1024/npm-test-1.git",
+  "author": "Matt Wilson",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.1",
+    "babel-jest": "^26.0.0",
+    "jest": "^26.0.0",
+    "semantic-release": "false17.0.7",
+    "typescript": "^3.8.3"
+  }
+}
