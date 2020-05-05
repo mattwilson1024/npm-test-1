@@ -7,6 +7,9 @@
   "repository": "https://github.com/mattwilson1024/npm-test-1.git",
   "author": "Matt Wilson",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest",
