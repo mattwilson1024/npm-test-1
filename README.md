@@ -11,3 +11,4 @@ This is an example repo, built to test the following:
 - A very basic TypeScript library which is built using Github Actions
 - Simple Jest setup, with tests running in CI on Github Actions
 - Automated deployment to NPM using semantic-release
+
