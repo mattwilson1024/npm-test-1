@@ -13,3 +13,7 @@ export function subtract(a: number, b: number): number {
 export function multiply(x: number, y: number): number {
   return x * y;
 }
+
+export function double(x: number): number {
+  return x * 2;
+}
