@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/mattwilson1024/npm-test-1/compare/v1.4.0...v1.5.0) (2020-05-13)
+
+
+### Features
+
+* division capability ([#15](https://github.com/mattwilson1024/npm-test-1/issues/15)) ([74d21d8](https://github.com/mattwilson1024/npm-test-1/commit/74d21d8923abb590dbdf6bf17c813b9b225fb5c7))
+
 # [1.4.0](https://github.com/mattwilson1024/npm-test-1/compare/v1.3.0...v1.4.0) (2020-05-05)
 
 
